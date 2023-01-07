@@ -1,4 +1,4 @@
-﻿#topcontainer {
+#topcontainer {
     background-color: #F9EBC4;
     position: relative;
     padding-top: 10%;
@@ -13,22 +13,91 @@ h1 {
     font-size: 562.5%;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    color: #A97555;
+    line-height:2;
 }
-h2{
-    font-size: 2,5rem;
+h2 {
+    font-size: 2.5rem;
+    color: #A97555;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #483D3C;
+    font-family: 'Montserrat', sans-serif;
+    color: #A7CF5D;
+}
+a {
+    color: #A7CF5D;
 }
 
 #middlecontainer{
 }
 #bottomcontainer {
+    margin-top: 2rem;
+    background-color: #F9EBC4;
+    margin-bottom:0;
+    padding: 5%;
 }
+.footername{
+    margin-bottom: 0;
+}
+
 #bottomcloud {
     position: absolute;
     left: 25%;
-    bottom: 55%;
+    bottom: 35%;
 }
 #topcloud {
     position: absolute;
     right: 25%;
     top: 15%;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.gif{
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+.gif2 {
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
+}
+.paragraph1{
+    
+}
+.paragraph2 {
+    
+}
+.btn {
+ 
+    border-radius: 11px;
+    font-family: Arial;
+    color: #F9EBC4;
+    font-size: 22px;
+    background: #A7CF5D;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 4rem auto 4rem auto;
+}
+
+    .btn:hover {
+        background: #A97555;
+        text-decoration: none;
+    }
+
+hr {
+    width: 10%;
+    border-width: 10px;
+    border-style: none;
+    height: 1rem;
+    border-top-style: dotted;
+    border-top-color: #C58940;
 }
